@@ -1,70 +1,107 @@
-BAT PASSWORD
+# 🦇 BAT PASSWORD
 
-Gerador de senhas estilizado inspirado no universo do Batman, desenvolvido com React Native + Expo.
-O app permite gerar senhas seguras e copiá-las facilmente para a área de transferência.
+![Expo](https://img.shields.io/badge/Expo-React%20Native-blue?logo=expo)
+![Status](https://img.shields.io/badge/status-active-success)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Made by](https://img.shields.io/badge/made%20by-Flávio%20Henrique-yellow)
 
-🚀 Funcionalidades
+> 🔐 Gerador de senhas moderno inspirado no universo do Batman
 
-🔐 Geração de senha aleatória
+---
 
-📋 Copiar senha para a área de transferência
-🎨 Interface moderna (tema escuro + amarelo estilo Batman)
-⚠️ Alertas para ações do usuário
-📱 Preview
-Ícone de morcego 🦇
-Campo com senha gerada
-Botão GERAR SENHA
-Botão COPIAR
-🛠️ Tecnologias utilizadas
-React Native
-Expo
-JavaScript (ES6+)
-Expo Vector Icons
-📦 Instalação
-Clone o repositório:
+## 📱 Sobre o projeto
+
+O **BAT PASSWORD** é um aplicativo desenvolvido com **React Native + Expo** que permite gerar senhas seguras de forma rápida e prática, com um visual moderno em tema escuro.
+
+---
+
+## ⚡ Funcionalidades
+
+* 🔐 Geração de senha aleatória segura
+* 📋 Copiar senha com um clique
+* 🎨 Interface estilizada (dark + amarelo)
+* ⚠️ Feedback com alertas
+
+---
+
+## 🖼️ Preview
+
+<img src="https://via.placeholder.com/300x600.png?text=Preview+App" width="250"/>
+
+---
+
+## 🛠️ Tecnologias
+
+* React Native
+* Expo
+* JavaScript
+* Expo Clipboard
+* Expo Vector Icons
+
+---
+
+## 🚀 Como rodar o projeto
+
+```bash
+# Clonar repositório
 git clone https://github.com/seu-usuario/bat-password.git
-Acesse a pasta:
+
+# Entrar na pasta
 cd bat-password
-Instale as dependências:
+
+# Instalar dependências
 npm install
-Execute o projeto:
+
+# Rodar projeto
 npx expo start
-⚠️ Observação importante
+```
 
-Para funcionar corretamente a cópia da senha, é necessário instalar o Clipboard do Expo:
+---
 
+## ⚠️ Dependência importante
+
+```bash
 npx expo install expo-clipboard
+```
 
-E importar no código:
+E no código:
 
+```js
 import * as Clipboard from 'expo-clipboard';
-🧠 Como funciona
+```
 
-A senha é gerada a partir de um conjunto de caracteres:
+---
 
-Letras maiúsculas e minúsculas
-Números
-Símbolos especiais
+## 🧠 Lógica da senha
 
-Trecho principal:
+A senha é gerada usando:
 
+* Letras maiúsculas
+* Letras minúsculas
+* Números
+* Caracteres especiais
+
+```js
 const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#';
+```
 
-Um loop gera 12 caracteres aleatórios para formar a senha.
+---
 
-🎨 Personalização
+## 🎯 Melhorias futuras
 
-Você pode facilmente modificar:
+* [ ] Definir tamanho da senha
+* [ ] Selecionar tipos de caracteres
+* [ ] Histórico de senhas
+* [ ] Medidor de força da senha
 
-🔢 Tamanho da senha (alterando o for)
-🔣 Tipos de caracteres
-🎨 Cores no StyleSheet
-🦇 Ícone (MaterialCommunityIcons)
-💡 Melhorias futuras
-Definir tamanho da senha pelo usuário
-Alternar tipos de caracteres (checkbox)
-Histórico de senhas geradas
-Indicador de força da senha
-👨‍💻 Autor
+---
 
-Desenvolvido por FH
+## 👨‍💻 Autor
+
+**Flávio Henrique**
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
