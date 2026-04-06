@@ -4,7 +4,9 @@ Gerador de senhas estilizado inspirado no universo do Batman, desenvolvido com R
 O app permite gerar senhas seguras e copiá-las facilmente para a área de transferência.
 
 🚀 Funcionalidades
+
 🔐 Geração de senha aleatória
+
 📋 Copiar senha para a área de transferência
 🎨 Interface moderna (tema escuro + amarelo estilo Batman)
 ⚠️ Alertas para ações do usuário
