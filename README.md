@@ -98,10 +98,4 @@ const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#
 
 ## 👨‍💻 Autor
 
-**Flávio Henrique**
-
----
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT.
+**FH**
